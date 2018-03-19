@@ -1,0 +1,30 @@
+1) Convert Excel files to CSV.
+
+2) Run CSVMerger merging all CSV files into one file, the idr0040-experimentA-annotation.csv
+
+3) Generate the idr0040-experimentA-filePaths.tsv
+   a) From that annotations file remove everything except 'Source Name' and 'Comment [Image File Path]' column
+      and save as idr0040-experimentA-filePaths.tsv (tab separated!).
+   b) Remove header line.
+   c) Remove duplicate rows (RemoveDuplicateRows.java)
+   d) Prefix each entry on the first ('Source Name') column with 'Dataset:name:' and the second 
+      ('Comment [Image File Path]') column with '/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/'
+      (PrefixColumns.java)
+   e) Run PathsParser.java on the file which basically just duplicates the last part of the
+      path (Pos0, Pos1, ...) as separate column which will be used as image name.
+
+4) Prepare the idr0040-experimentA-annotation.csv
+   a) Like mentioned in the IDR workflow document, remove all unnecessary columns and rearrange columns (e. g. with Excel),
+      so that the first column will be the Dataset column and the second column the image name
+   b) Remove duplicate entries (RemoveDuplicateRows.java)
+   c) Remove all unnecessary whitespaces (RemoveWhitespaces.java)
+   d) Split the columns 'Comment [Gene Identifier]' and 'Comment [Gene Symbol]' (SplitColumns.java)
+   e) Add the EFO terms for mating type (Process.java)
+
+5) Prepare the rendering settings
+   a) Gather all rendering settings with copy_rend_settings.sh
+   b) Convert them to ome compatible renderings settings (mm2ome.py)
+   c) Create the mappings file (RenderingSettingsMapping.java)
+   d) The rendering settings can be applied with the applyRenderingSettings.sh script
+
+Note: "Run a script" means: Edit the parts within "BEGIN and END Parameters" section accordingly, then run the script.
