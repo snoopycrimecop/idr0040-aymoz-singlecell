@@ -7,5 +7,5 @@
 for i in /uod/idr/filesets/idr0040-aymoz-singlecell/20180215/**/display_and_comments.txt
 do
 	IFS='/' read -ra arr <<< "$i"
-	cp $i /home/dlindner/${arr[6]}_${arr[7]}_mm_rend.json
+	cp $i /home/dlindner/${arr[6]}_mm_rend.json
 done
