@@ -17,8 +17,8 @@ public class PrefixColumns {
         
         // BEGIN Parameters
         
-        String in = "/Users/dlindner/idr0040/filepaths_2.csv";
-        String out = "/Users/dlindner/idr0040/filepaths_3.csv";
+        String in = "idr0040-experimentA-filePaths.tsv";
+        String out = "idr0040-experimentA-filePaths_2.tsv";
         
         // prefix or postfix
         boolean prefix = true;

@@ -20,8 +20,8 @@ public class Process {
 
         // BEGIN Parameters
         
-        String in = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/experimentA/idr0040-experimentA-annotation.csv";
-        String out = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/experimentA/idr0040-experimentA-annotation_2.csv";
+        String in = "idr0040-experimentA-annotation.csv";
+        String out = "idr0040-experimentA-annotation_2.csv";
 
         String inputColumn = "Characteristics [Mating Type]";
         String outputColumn = "Term Source Accession";

@@ -8,6 +8,7 @@ from sys import argv
 # argument and converts it to an OME compatible json file (with name
 # '*_ome_*.json').
 #
+# E. g. run in for loop:  for i in *_mm_rend.json; do ./mm2ome.py $i; done;
 
 outchannels = {}
 outfile = ""

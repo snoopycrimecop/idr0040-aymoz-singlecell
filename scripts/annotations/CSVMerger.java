@@ -19,13 +19,15 @@ public class CSVMerger {
 
     // BEGIN Parameters
     
+    // The Excel files /uod/idr/filesets/idr0040-aymoz-singlecell/20180215/idr0000-experimentB-assays_*.xls
+    // saved as *.csv
     static final String[] files = {
-            "/Users/dlindner/idr0040/idr0000-experimentB-assays_DoseResponsesSupFigs.csv",
-            "/Users/dlindner/idr0040/idr0000-experimentB-assays_MatingFig.csv",
-            "/Users/dlindner/idr0040/idr0000-experimentB-assays_PheromoneTmtMainFig.csv",
-            "/Users/dlindner/idr0040/idr0000-experimentB-assays_PheromoneTmtSupFig.csv"};
+            "idr0000-experimentB-assays_DoseResponsesSupFigs.csv",
+            "idr0000-experimentB-assays_MatingFig.csv",
+            "idr0000-experimentB-assays_PheromoneTmtMainFig.csv",
+            "idr0000-experimentB-assays_PheromoneTmtSupFig.csv"};
 
-    static final String outFile = "/Users/dlindner/idr0040/annotations.csv";
+    static final String outFile = "idr0040-experimentA-annotation.csv";
     
     // END Parameters
     

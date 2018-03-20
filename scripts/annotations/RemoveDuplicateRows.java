@@ -29,8 +29,8 @@ public class RemoveDuplicateRows {
         
         // BEGIN Parameters
         
-        String in = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/experimentA/idr0040-experimentA-annotation.csv";
-        String out = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/experimentA/idr0040-experimentA-annotation2.csv";
+        String in = "idr0040-experimentA-annotation.csv";
+        String out = "idr0040-experimentA-annotation_2.csv";
         
         char separator = ',';
         

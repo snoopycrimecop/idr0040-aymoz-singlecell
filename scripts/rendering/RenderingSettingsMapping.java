@@ -34,12 +34,12 @@ public class RenderingSettingsMapping {
         
         // BEGIN Parameters
         
-        String filepathsFilename = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/experimentA/idr0040-experimentA-filePaths.tsv";
+        String filepathsFilename = "idr0040-experimentA-filePaths.tsv";
         
         // Directory containing the rendering setting files
-        String renderingDirname = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/rendering_settings";
+        String renderingDirname = "rendering_settings";
         
-        String outputFilename = "/Users/dlindner/Repositories/idr-metadata/idr0040-aymoz-singlecell/rendering_settings/mapping.tsv";
+        String outputFilename = "rendering_settings/mapping.tsv";
         
         // END Parameters
         

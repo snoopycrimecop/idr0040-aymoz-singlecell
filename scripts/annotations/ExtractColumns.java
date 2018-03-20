@@ -18,12 +18,14 @@ public class ExtractColumns {
         
         // BEGIN Parameters
         
-        String in = "/Users/dlindner/idr0040/annotations.csv";
-        String out = "/Users/dlindner/idr0040/filepaths.csv";
+        String in = "idr0040-experimentA-annotation.csv";
+        String out = "idr0040-experimentA-filePaths.tsv";
 
         // The columns to extract
         String[] columns = {"Dataset Name", "Comment [Image File Path]"};
         
+        char splitSeparator = ',';
+        char joinSeparator = '\t';
         // END Parameters
         
         
@@ -32,7 +34,7 @@ public class ExtractColumns {
         
         HashSet<String> unique = new HashSet<String>();
         
-        String[] headers = split(r.readLine());
+        String[] headers = split(r.readLine(), splitSeparator);
         int[] index = new int[columns.length];
         for(int i=0; i<columns.length; i++) {
             for(int j=0; j<headers.length; j++) {
@@ -43,10 +45,10 @@ public class ExtractColumns {
         }
         
         String line = null;
-        w.write(join(columns)+"\n");
+        w.write(join(columns, joinSeparator)+"\n");
 
         while ((line = r.readLine()) != null) {
-            String parts[] = split(line);
+            String parts[] = split(line, splitSeparator);
             String[] outline = new String[columns.length];
 
             String tmp = "";
@@ -56,7 +58,7 @@ public class ExtractColumns {
             }
 
             if (!unique.contains(tmp)) {
-                w.write(join(outline) + "\n");
+                w.write(join(outline, joinSeparator) + "\n");
                 unique.add(tmp);
             }
         }

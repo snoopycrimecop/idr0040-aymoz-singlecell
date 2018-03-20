@@ -29,8 +29,8 @@ public class PathsParser {
         
         // BEGIN Parameters
         
-        String in = "/Users/dlindner/idr0040/filepaths_3.csv";
-        String out = "/Users/dlindner/idr0040/idr0040-experimentA-filePaths.tsv";
+        String in = "idr0040-experimentA-filePaths.tsv";
+        String out = "idr0040-experimentA-filePaths_2.tsv";
         
         // END Parameters
         
@@ -39,14 +39,14 @@ public class PathsParser {
         
         String line = null;
         while((line = r.readLine())!=null) {
-            String[] tmp = line.split(",");
+            String[] tmp = split(line, '\t');
             String[] tmp2 = tmp[1].split("/");
             
             String[] outline = new String[tmp.length+1];
             for(int i=0; i<tmp.length; i++)
                 outline[i] = tmp[i];
             outline[tmp.length] = tmp2[tmp2.length-1];
-            w.write(join(outline)+"\n");
+            w.write(join(outline, '\t')+"\n");
         }
         r.close();
         w.close();
