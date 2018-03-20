@@ -22,7 +22,7 @@ public class ExtractColumns {
         String out = "idr0040-experimentA-filePaths.tsv";
 
         // The columns to extract
-        String[] columns = {"Dataset Name", "Comment [Image File Path]"};
+        String[] columns = {"Source Name", "Comment [Image File Path]"};
         
         char splitSeparator = ',';
         char joinSeparator = '\t';

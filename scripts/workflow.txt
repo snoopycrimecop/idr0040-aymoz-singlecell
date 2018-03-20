@@ -4,18 +4,19 @@
 
 3) Generate the idr0040-experimentA-filePaths.tsv
    a) From that annotations file remove everything except 'Source Name' and 'Comment [Image File Path]' column
-      and save as idr0040-experimentA-filePaths.tsv (tab separated!).
+      and save as idr0040-experimentA-filePaths.tsv (tab separated!) (ExtractColumns.java).
    b) Remove header line.
-   c) Remove duplicate rows (RemoveDuplicateRows.java)
-   d) Prefix each entry on the first ('Source Name') column with 'Dataset:name:' and the second 
+   c) Prefix each entry on the first ('Source Name') column with 'Dataset:name:' and the second 
       ('Comment [Image File Path]') column with '/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/'
       (PrefixColumns.java)
-   e) Run PathsParser.java on the file which basically just duplicates the last part of the
+   d) Run PathsParser.java on the file which basically just duplicates the last part of the
       path (Pos0, Pos1, ...) as separate column which will be used as image name.
 
 4) Prepare the idr0040-experimentA-annotation.csv
    a) Like mentioned in the IDR workflow document, remove all unnecessary columns and rearrange columns (e. g. with Excel),
-      so that the first column will be the Dataset column and the second column the image name
+      so that the first column will be the Dataset column ('Source Name': Rename to 'Dataset Name') and the second column
+      the image name ('Comment [Image File Path]': Rename to 'Image Name' and replace all '*/' with '', so that the folder name
+      is stripped off each entry, e. g. '3105/Pos0' will/should be only 'Pos0').
    b) Remove duplicate entries (RemoveDuplicateRows.java)
    c) Remove all unnecessary whitespaces (RemoveWhitespaces.java)
    d) Split the columns 'Comment [Gene Identifier]' and 'Comment [Gene Symbol]' (SplitColumns.java)
