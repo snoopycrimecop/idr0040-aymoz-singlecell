@@ -1,7 +1,3 @@
 ---
 include: "../bulk.yml"
 path: "idr0040-experimentA-filePaths.tsv"
-columns:
-    - target
-    - path
-    - name
