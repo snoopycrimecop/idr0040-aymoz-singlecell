@@ -20,8 +20,8 @@ Study Public Release Date
 Study PubMed ID				
 Study Publication Title	Timing of gene expression in a cell-fate decision system			
 Study Author List	"Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet"			
-Study PMC ID  TBC			
-Study DOI     TBC		
+Study PMC ID 			
+Study DOI   		
 				
 # Study Contacts				
 Study Person Last Name	Pelet	
@@ -35,7 +35,7 @@ Study License	CC-BY 4.0
 Study License URL 	https://creativecommons.org/licenses/by/4.0/	
 Study Copyright Pelet et al
 Study Data Publisher	University of Dundee
-Study Data DOI			TBC
+Study Data DOI		
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
