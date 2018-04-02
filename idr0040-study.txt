@@ -5,7 +5,7 @@
 				
 Comment[IDR Study Accession]	idr0040 		
 Study Title	Timing of gene expression in a cell-fate decision system			
-Study Type 		
+Study Type	timelapse microscopy	
 Study Type Term Source REF				
 Study Type Term Accession				
 Study Description	"During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system. "		 	
@@ -20,8 +20,8 @@ Study Public Release Date
 Study PubMed ID				
 Study Publication Title	Timing of gene expression in a cell-fate decision system			
 Study Author List	"Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet"			
-Study PMC ID				
-Study DOI				
+Study PMC ID 			
+Study DOI   		
 				
 # Study Contacts				
 Study Person Last Name	Pelet	
@@ -31,11 +31,11 @@ Study Person Address	"Département de Microbiologie Fondamentale - Bâtiment Bio
 Study Person Roles	submitter
 				
 # Study License and Data DOI				
-Study License		
-Study License URL 		
-Study Copyright
-Study Data Publisher	
-Study Data DOI			
+Study License	CC-BY 4.0	
+Study License URL	https://creativecommons.org/licenses/by/4.0/	
+Study Copyright Pelet et al
+Study Data Publisher	University of Dundee
+Study Data DOI		
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -51,14 +51,14 @@ Experiment Data DOI
 Experiment Description	"Time-lapse with addition of 1uM alpha-factor at time 0"			
 Experiment Size	5D Images: 	1 Tb
 Experiment Example Images		
-Experiment Imaging Method	Fluorescent microscopy			
-Experiment Imaging Method Term Source REF				
-Experiment Imaging Method Term Accession			
+Experiment Imaging Method	fluorescent microscopy			
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	FBbi_00000246		
 Experiment Comments				
 				
 # assay files				
-Experiment Assay File		
-Experiment Assay File Format	tab-delimited text file			
+Experiment Assay File	idr0040-experimentB-assays_DoseResponsesSupFigs.csv idr0040-experimentB-assays_MatingFig.csv idr0040-experimentB-assays_PheromoneTmtMainFig idr0040-experimentB-assays_PheromoneTmtSupFig.csv	
+Experiment Assay File Format	comma-delimited text file			
 Assay Experimental Conditions
 Assay Experimental Conditions Term Source REF	
 Assay Experimental Conditions Term Accession
