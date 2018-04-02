@@ -57,7 +57,7 @@ Experiment Imaging Method Term Accession	FBbi_00000246
 Experiment Comments				
 				
 # assay files				
-Experiment Assay File	idr0040-experimentB-assays_DoseResponsesSupFigs.csv idr0040-experimentB-assays_MatingFig.csv idr0040-experimentB-assays_PheromoneTmtMainFig idr0040-experimentB-assays_PheromoneTmtSupFig.csv	
+Experiment Assay File	idr0040-experimentA-assays.txt	
 Experiment Assay File Format	comma-delimited text file			
 Assay Experimental Conditions
 Assay Experimental Conditions Term Source REF	
