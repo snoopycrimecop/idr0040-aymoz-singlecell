@@ -9,10 +9,10 @@ Study Type	timelapse microscopy
 Study Type Term Source REF				
 Study Type Term Accession				
 Study Description	"During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system. "		 	
-Study Organism Saccharomyces cerevisiae			
+Study Organism	Saccharomyces cerevisiae			
 Study Organism Term Source REF	NCBITaxon			
 Study Organism Term Accession	NCBITaxon_4932			
-Study Experiments Number	30			
+Study Experiments Number	1			
 Study External URL				
 Study Public Release Date				
 				
@@ -41,15 +41,13 @@ Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
 				
 				
-# EXPERIMENT SECTION				
-"# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"				
-				
+# EXPERIMENT SECTION
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentA			
 Experiment Data Publisher				
 Experiment Data DOI			
 Experiment Description	"Time-lapse with addition of 1uM alpha-factor at time 0"			
-Experiment Size	5D Images: 	1 Tb
+Experiment Size	5D Images:	1 Tb
 Experiment Example Images		
 Experiment Imaging Method	fluorescent microscopy			
 Experiment Imaging Method Term Source REF	Fbbi			
