@@ -8,7 +8,7 @@ Study Title	Timing of gene expression in a cell-fate decision system
 Study Type	timelapse microscopy	
 Study Type Term Source REF				
 Study Type Term Accession				
-Study Description	"During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system. "		 	
+Study Description	During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system.		 	
 Study Organism	Saccharomyces cerevisiae			
 Study Organism Term Source REF	NCBITaxon			
 Study Organism Term Accession	NCBITaxon_4932			
@@ -19,7 +19,7 @@ Study Public Release Date
 # Study Publication				
 Study PubMed ID				
 Study Publication Title	Timing of gene expression in a cell-fate decision system			
-Study Author List	"Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet"			
+Study Author List	Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet			
 Study PMC ID 			
 Study DOI   		
 				
@@ -27,7 +27,7 @@ Study DOI
 Study Person Last Name	Pelet	
 Study Person First Name	Serge	
 Study Person Email	serge.pelet@unil.ch		
-Study Person Address	"Département de Microbiologie Fondamentale - Bâtiment Biophore - 1015 Lausanne"		
+Study Person Address	Département de Microbiologie Fondamentale - Bâtiment Biophore - 1015 Lausanne		
 Study Person Roles	submitter
 				
 # Study License and Data DOI				
@@ -46,7 +46,7 @@ Experiment Number	1
 Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentA			
 Experiment Data Publisher				
 Experiment Data DOI			
-Experiment Description	"Time-lapse with addition of 1uM alpha-factor at time 0"			
+Experiment Description	Time-lapse with addition of 1uM alpha-factor at time 0			
 Experiment Size	5D Images:	1 Tb
 Experiment Example Images		
 Experiment Imaging Method	fluorescent microscopy			
