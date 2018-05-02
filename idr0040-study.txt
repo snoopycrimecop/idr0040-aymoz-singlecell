@@ -48,7 +48,7 @@ Experiment Data Publisher
 Experiment Data DOI			
 Experiment Description	Time-lapse with addition of 1uM alpha-factor at time 0			
 Experiment Size	5D Images:	1 Tb
-Experiment Example Images		
+Experiment Example Images	https://idr.openmicroscopy.org/webclient/?show=image-3491616	https://idr.openmicroscopy.org/webclient/img_detail/3491616/
 Experiment Imaging Method	fluorescent microscopy			
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	FBbi_00000246		
