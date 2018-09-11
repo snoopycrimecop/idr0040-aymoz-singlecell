@@ -82,12 +82,12 @@ columns:
           include: yes
 
 advanced:
-    ignore_missing_primary_key: yes
-    primary_group_keys:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
-      - Organism
+        - Organism
     - namespace: openmicroscopy.org/mapr/gene
       keys:
-      - Gene Identifier
-      - Gene Symbol
+        - Gene Identifier
+        - Gene Symbol
