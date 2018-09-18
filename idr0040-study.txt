@@ -17,11 +17,11 @@ Study External URL
 Study Public Release Date				
 				
 # Study Publication				
-Study PubMed ID				
+Study PubMed ID	29695607			
 Study Publication Title	Timing of gene expression in a cell-fate decision system			
 Study Author List	Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet			
-Study PMC ID 			
-Study DOI   		
+Study PMC ID	PMC5916086		
+Study DOI	https://doi.org/10.15252/msb.20178024	
 				
 # Study Contacts				
 Study Person Last Name	Pelet	
