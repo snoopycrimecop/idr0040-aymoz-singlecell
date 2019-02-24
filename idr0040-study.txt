@@ -33,7 +33,7 @@ Study Person Roles	submitter
 # Study License and Data DOI				
 Study License	CC-BY 4.0	
 Study License URL	https://creativecommons.org/licenses/by/4.0/	
-Study Copyright Pelet et al
+Study Copyright	Pelet et al
 Study Data Publisher	University of Dundee
 Study Data DOI	https://doi.org/10.17867/10000114
 				
