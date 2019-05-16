@@ -5,9 +5,9 @@
 				
 Comment[IDR Study Accession]	idr0040 		
 Study Title	Timing of gene expression in a cell-fate decision system			
-Study Type	timelapse microscopy	
-Study Type Term Source REF				
-Study Type Term Accession				
+Study Type	time-lapse imaging	
+Study Type Term Source REF	OMIT			
+Study Type Term Accession	OMIT_0027490				
 Study Description	During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system.		 	
 Study Organism	Saccharomyces cerevisiae			
 Study Organism Term Source REF	NCBITaxon			
@@ -37,15 +37,16 @@ Study Copyright	Pelet et al
 Study Data Publisher	University of Dundee
 Study Data DOI	https://doi.org/10.17867/10000114
 				
-Term Source Name	NCBITaxon	EFO	CMPO	FBbi
-Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi	OMIT
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/
 				
 				
 # EXPERIMENT SECTION
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentA			
 Experiment Data Publisher				
-Experiment Data DOI			
+Experiment Data DOI		
+Experiment Sample Type	cell
 Experiment Description	Time-lapse with addition of 1uM alpha-factor at time 0			
 Experiment Size	5D Images:	1 Tb
 Experiment Example Images	https://idr.openmicroscopy.org/webclient/?show=image-3491616	https://idr.openmicroscopy.org/webclient/img_detail/3491616/
